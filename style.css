@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.recipe {
+    width: 35%;
+    text-align: center;
+
+}
+
+.recipe img {
+    margin-top: 20px;
+    width: 75%;
+}
